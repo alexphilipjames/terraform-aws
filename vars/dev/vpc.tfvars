@@ -1,6 +1,6 @@
 #vpc
-region               = "us-west-2"
-vpc_cidr_block       = "10.0.0.0/16"
+region               = "us-east-1"
+vpc_cidr_block       = "10.0.0.0/22"
 instance_tenancy     = "default"
 enable_dns_support   = true
 enable_dns_hostnames = true
@@ -31,7 +31,7 @@ management_subnet_cidr_blocks = ["10.0.10.0/24", "10.0.11.0/24", "10.0.12.0/24"]
 platform_subnet_cidr_blocks   = ["10.0.13.0/24", "10.0.14.0/24", "10.0.15.0/24"]
 
 # Availability Zones
-availability_zones = ["us-west-2a", "us-west-2b", "us-west-2c"]
+availability_zones = ["us-east-1a", "us-east-2b"]
 
 
 #Public Subnet NACL
@@ -110,6 +110,6 @@ egress_platform_nacl_protocol   = ["-1"]
 egress_platform_nacl_cidr_block = ["0.0.0.0/0"]
 
 #endpoint
-create_s3_endpoint              = true
-create_secrets_manager_endpoint = true
-create_cloudwatch_logs_endpoint = true
+create_s3_endpoint              = false
+create_secrets_manager_endpoint = false
+create_cloudwatch_logs_endpoint = false
