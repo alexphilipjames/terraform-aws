@@ -24,11 +24,11 @@ application = "ecommerce"
 map_public_ip_on_launch = true
 
 #subnets
-public_subnet_cidr_blocks     = ["10.0.0.0/22", "10.0.1.0/22"]
-app_subnet_cidr_blocks        = ["10.0.2.0/22", "10.0.3.0/22"]
-db_subnet_cidr_blocks         = ["10.0.4.0/22", "10.0.5.0/22"]
-management_subnet_cidr_blocks = ["10.0.6.0/22", "10.0.7.0/22"]
-platform_subnet_cidr_blocks   = ["10.0.8.0/22", "10.0.9.0/22"]
+public_subnet_cidr_blocks     = ["10.0.0.0/23", "10.0.2.0/23"]
+app_subnet_cidr_blocks        = ["10.0.4.0/23", "10.0.6.0/23"]
+db_subnet_cidr_blocks         = ["10.0.8.0/23", "10.0.10.0/23"]
+management_subnet_cidr_blocks = ["10.0.12.0/23", "10.0.14.0/23"]
+platform_subnet_cidr_blocks   = ["10.0.16.0/23", "10.0.18.0/23"]
 
 # Availability Zones
 availability_zones = ["us-east-1a", "us-east-1b"]
