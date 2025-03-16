@@ -31,7 +31,7 @@ management_subnet_cidr_blocks = ["10.0.6.0/24", "10.0.7.0/24"]
 platform_subnet_cidr_blocks   = ["10.0.8.0/24", "10.0.9.0/24"]
 
 # Availability Zones
-availability_zones = ["us-east-1a", "us-east-2b"]
+availability_zones = ["us-east-1a", "us-east-1b"]
 
 
 #Public Subnet NACL
